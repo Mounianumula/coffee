@@ -1,0 +1,118 @@
+.header{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: black;
+ height: 75px;
+ align-items: center;
+ padding-left: 30px;
+ padding-right: 30px;
+ justify-content: space-between;
+}
+ul,li{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    column-gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+.First{
+    background-image: url(coffe_back.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#shophere:hover
+{
+    background-color: rgb(240, 201, 150);
+    cursor: pointer;
+    transform: scale(1.2) ;
+}
+#First_section{
+    padding-top: 35px;
+    padding-left: 30px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.second{
+    background-image: url(brown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items: center;
+   font-size: 35px;
+   
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    padding: top 30px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.secondpart1{
+   display:flex;
+  justify-content: space-between;
+  column-gap:45px;
+  align-items: center;
+  align-content: center;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;  
+  flex-wrap: wrap; 
+}
+.Third{
+    background-image: url(estd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.fourth{
+    background-image: url(brown.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    height: 700px;
+}
+.fourth1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    align-items: center;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.fifth{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fifth1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fifth2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
